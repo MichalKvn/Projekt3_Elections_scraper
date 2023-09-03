@@ -6,7 +6,7 @@ volebních výsledků.
 Krok číslo 1:
 ---------------------------------------------------------------------------------------------
 Prvním krokem při tvorbě projektu bylo vytvořit si virtuální prostředí (virtual environment) venv 
-a následně do něj nahrát příslušné knihovny třetích stran, společně s již s těmi zabudovanými
+a následně do něj nahrát příslušné knihovny třetích stran, společně se zabudovanými
 >>> instalace virtuálního prostředí pomocí příkazu: python3 -m venv venv
 >>> následná aktivace virtuálního prostředí pomocí příkazu: source venv/bin/activate
 
@@ -21,7 +21,7 @@ Poté je třeba vytvořit soubor requirements.txt
 ---------------------------------------------------------------------------------------------
 Krok číslo 2:
 ---------------------------------------------------------------------------------------------
-K vytvoření souboru requirements.txt je vhdoné použít příkaz: pip freeze > requirements.txt, který
+K vytvoření souboru requirements.txt je vhodné použít příkaz: pip freeze > requirements.txt, který
 vytvoří .txt soubor se všemi knihovnami použitými v rámci virtuálního prostředí
 
 Následně je důležité celý program zapsat do dílčích funkcí, které jsou následně spouštěny přes 
